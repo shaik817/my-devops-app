@@ -14,4 +14,6 @@ spec:
     spec:
       containers:
       - name: my-app
-        image: yourdockerhub/my-app:latest
+        image: shaik817/my-app:latest   # IMPORTANT
+        ports:
+        - containerPort: 8080
